@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Navbar from './Pages/Navbar'
 import Home from './Pages/Home'
@@ -7,10 +8,10 @@ import Form from './Pages/Form'
 function Page() {
   return (
     <div className='relative'>
-      {/* <Home/> */}
+      <Home/>
       <Feature/>
-      {/* <Form/>
-      <Navbar/> */}
+      <Form/>
+      <Navbar/>
     </div>
   )
 }
