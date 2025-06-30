@@ -8,7 +8,7 @@ const n = Ruslan_Display({weight : ["400"],display:"swap",subsets:['latin']});
 const e = Encode_Sans_SC({weight :["500"],display:"swap",subsets:['latin']});
 const s = Spectral_SC({weight:["500"],display:"swap",subsets:['latin']});
 const l = Libre_Bodoni({weight:["400"],display:"swap",subsets:['latin']});
-const d =DM_Serif_Text({weight:["400"],display:"swap",subsets:['latin']})
+const d =DM_Serif_Text({weight:["400"],display:"swap",subsets:['latin']});
 import Image from 'next/image'
 function Feature() {
    const { ref, inView } = useInView({
