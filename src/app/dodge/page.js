@@ -4,7 +4,7 @@ import Home from './Pages/Home'
 import Feature from './Pages/Feature'
 import Form from './Pages/Form'
 
-function page() {
+function Page() {
   return (
     <div className='relative'>
       <Home/>
@@ -15,4 +15,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
