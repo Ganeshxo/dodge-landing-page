@@ -19,9 +19,9 @@ function Home() {
          <motion.h1 initial={{opacity:0}} whileInView={{opacity:1,y:90}} transition={{duration:1}} className={`${n.className} text-center text-2xl sm:text-4xl lg:text-5xl bg-gradient-to-t from-red-600 via-red-700 to-red-600 bg-clip-text text-transparent uppercase lg:pt-5`}>Unleash the Beast</motion.h1>
          <div className='h-4/5 mt-7 lg:flex lg:h-full'>
           <div className='h-1/2 lg:h-full lg:w-3/5'>
-          <motion.p initial={{opacity:0}} whileInView={{opacity:1,x:90,y:60}} transition={{duration:1}}>
+          <motion.div initial={{opacity:0}} whileInView={{opacity:1,x:90,y:60}} transition={{duration:1}}>
             <Image src="/dodge.png" width={1024} height={1024} priority alt='SRT' className='object-contain mx-auto -ml-20 sm:ml-5 md:ml-20 w-96 sm:w-[400px] md:w-[480px] md:-mt-10 lg:w-7xl 2xl:w-5xl lg:-ml-20 lg:mt-20 xl:mt-10 2xl:-mt-10 2xl:ml-3.5'/>
-           </motion.p>
+           </motion.div>
           </div> 
           <div className='h-1/2 lg:h-full lg:w-2/5 bg-slate-00 text-center text-white'>
            <Image src="/hell.png" width={512} height={512} priority alt='' className='mx-auto object-cover w-52 h-auto xl:w-72 md:pt-14 lg:pt-52'/>
