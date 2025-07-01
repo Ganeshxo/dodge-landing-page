@@ -20,7 +20,7 @@ function Home() {
          <div className='h-4/5 mt-7 lg:flex lg:h-full'>
           <div className='h-1/2 lg:h-full lg:w-3/5'>
           <motion.div initial={{opacity:0}} whileInView={{opacity:1,x:90,y:60}} transition={{duration:1}}>
-            <Image src="/dodge.png" width={1024} height={1024} priority alt='SRT' className='object-contain mx-auto -ml-20 sm:ml-5 md:ml-20 w-96 sm:w-[400px] md:w-[480px] md:-mt-10 lg:w-7xl 2xl:w-5xl lg:-ml-20 lg:mt-20 xl:mt-10 2xl:-mt-10 2xl:ml-3.5'/>
+            <Image src="/dodge.png" width={800} height={600} priority alt='SRT' className='object-contain mx-auto -ml-20 sm:ml-5 md:ml-20 w-96 sm:w-[400px] md:w-[480px] md:-mt-10 lg:w-7xl 2xl:w-5xl lg:-ml-20 lg:mt-20 xl:mt-10 2xl:-mt-10 2xl:ml-3.5'/>
            </motion.div>
           </div> 
           <div className='h-1/2 lg:h-full lg:w-2/5 bg-slate-00 text-center text-white'>

@@ -9,7 +9,7 @@ function Page() {
   return (
     <div className='relative'>
       <Home/>
-      <Feature/>
+      <Feature/> 
       <Form/>
       <Navbar/>
     </div>

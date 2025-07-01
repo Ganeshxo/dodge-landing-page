@@ -71,19 +71,19 @@ function Form() {
                   <div className='backface-hidden'>
                   <p className={`${n.className} text-lg sm:text-2xl xl:text-3xl 2xl:text-4xl pt-12 text-red-600 text-center`}>Experience the Beast</p>
                   <div className={`${f.className} text-center text-white text-sm lg:text-md mt-7`}>
-                  <input type='text' value={name} onChange={(e)=>{setName(e.target.value); 
+                  <input id='user' type='text' value={name} onChange={(e)=>{setName(e.target.value); 
                      if(uName.test(e.target.value)){
                          setNameError("");
                      }
                   }} className='w-3/4 xl:w-3/5 h-8 2xl:h-10 bg-transparent rounded-lg border-2 border-lime-400 outline-none pl-4 focus:shadow-[0px_1px_10px_2px_rgba(65,255,1)]' placeholder='Enter Name'/>
                   <br/>{nameError && <span className='text-xs'>{nameError}</span>}<br/>
-                  <input type='text' value={email} onChange={(e)=>{setEmail(e.target.value);
+                  <input id='mail' type='text' value={email} onChange={(e)=>{setEmail(e.target.value);
                      if(eFormat.test(e.target.value)){
                         setEmailError("")
                      }
                   }} className='w-3/4 xl:w-3/5 h-8 2xl:h-10 bg-transparent rounded-lg border-2 border-lime-400 outline-none pl-4 focus:shadow-[0px_1px_10px_2px_rgba(65,255,1)] mt-1 xl:mt-2' placeholder='Enter Email'/>
                   <br/>{emailError && <span className='text-xs'>{emailError}</span>}<br/>
-                  <input value={phone} onChange={(e)=>{setPhone(e.target.value);
+                  <input id='num' value={phone} onChange={(e)=>{setPhone(e.target.value);
                      if(pFormat.test(e.target.value)){
                          setPhoneError("")
                      }
