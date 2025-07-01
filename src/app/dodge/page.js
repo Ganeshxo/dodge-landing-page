@@ -8,10 +8,10 @@ import Form from './Pages/Form'
 function Page() {
   return (
     <div className='relative'>
-      {/* <Home/> */}
+      <Home/>
       <Feature/> 
-      {/* <Form/>
-      <Navbar/> */}
+      <Form/>
+      <Navbar/>
     </div>
   )
 }
