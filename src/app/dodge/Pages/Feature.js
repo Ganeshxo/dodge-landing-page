@@ -41,11 +41,11 @@ function Feature() {
           <div className='h-2/5 lg:w-3/5 lg:h-full overflow-hidden'>
              <p className={`${e.className} text-lime-400 text-xl lg:text-3xl text-center pt-3 lg:pt-24`}>Price<span className={`${l.className} text-red-600 pl-4`}>$ 32,800</span></p>
              <motion.div initial={{opacity:0}} whileInView={{opacity:1,x:-120}} transition={{duration:1.7}}>
-             <Image src="/gree.png" alt='' width={800} height={800} priority className='object-contain w-3xs sm:w-72 lg:w-3xl mx-auto -mr-20 sm:mr-14 md:mr-24 lg:-mr-28 lg:-mt-10 xl:-mt-20 2xl:mr-3'/> 
+             <Image src="/gree.png" alt='' width={800} height={800} priority className='object-contain w-3xs sm:w-72 lg:w-3xl mx-auto -mt-5 -mr-20 sm:mr-14 md:mr-24 lg:-mr-28 lg:-mt-10 xl:-mt-20 2xl:mr-3'/> 
              </motion.div>
           </div>
           </div>
-            <p className={`${e.className} text-center text-xl lg:text-2xl 2xl:text-3xl text-white -mt-8 sm:-mt-5 lg:-mt-24 2xl:-mt-32 `}>Performance</p>
+            <p className={`${e.className} text-center text-xl lg:text-2xl 2xl:text-3xl text-white -mt-16 sm:-mt-5 lg:-mt-24 2xl:-mt-32 `}>Performance</p>
             <div className={`${s.className} h-24 lg:h-28 2xl:h-36 flex justify-evenly text-center text-white text-md lg:text-xl 2xl:text-2xl pt-5 lg:pt-8`}>
               <div ref={ref} className='w-36 md:w-44 2xl:w-60 lg:border-4 lg:border-t-0 lg:border-b-0 lg:border-red-600 space-y-3 pt-2 2xl:pt-5'>
                 <p>Topspeed</p>
